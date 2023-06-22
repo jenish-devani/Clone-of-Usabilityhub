@@ -126,6 +126,24 @@ body{
         }
 
     }
+}
 
-   
+.companies-section{
+    margin-top: 75px;
+    .container{
+        display: flex;
+        flex-direction: column;
+    }
+    p{
+        text-align: center;
+        color: var(--primary-text-color);
+    }
+    .logos{
+        margin-top: 26px;
+        display: flex;
+        justify-content: space-between;
+        img{
+            height: 46px;
+        }
+    }
 }

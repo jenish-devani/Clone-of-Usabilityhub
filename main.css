@@ -105,4 +105,24 @@ body {
 }
 .hero .right-side img {
   width: 550px;
+}
+
+.companies-section {
+  margin-top: 75px;
+}
+.companies-section .container {
+  display: flex;
+  flex-direction: column;
+}
+.companies-section p {
+  text-align: center;
+  color: var(--primary-text-color);
+}
+.companies-section .logos {
+  margin-top: 26px;
+  display: flex;
+  justify-content: space-between;
+}
+.companies-section .logos img {
+  height: 46px;
 }/*# sourceMappingURL=main.css.map */
