@@ -1,0 +1,102 @@
+/*# sourceMappingURL=main.css.map */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&family=Roboto:wght@400;700&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+:root{
+    --primary-text-color:#183b56;
+    --secondary-text-color:#577592;
+    --accent-color:#2294ed;
+    --accent-color-dark:#1d69a3;
+}
+
+body{
+    font-family: 'Poppins',sans-serif;
+    color: var(--primary-text-color);
+}
+
+
+.container{
+    max-width: 1180px;
+    margin:0 auto;
+    padding-inline: 20px; 
+   
+}
+
+.primary-btn{
+    background-color: var(--accent-color);
+    color: white !important;
+    border-radius: 6px;
+    padding: 12px 24px;
+    font-weight: 600;
+    &:hover{
+        background-color: var(--accent-color-dark);
+    }
+
+}
+.secondary-btn{
+    border: 1px solid var(--secondary-text-color);
+    padding: 12px 24px;
+    border-radius: 6px;
+    font-weight: 600;
+    color: var(--primary-text-color) !important;
+    &:hover{
+        border-color: var(--accent-color);
+        color: var(--accent-color) !important;
+    }
+}
+
+.top-banner{
+
+    background-color: #e74694;
+    background-size: 300px;
+    background-image: url('/images/asset\ 32.png');
+
+    .small-bold-text{
+        font-size: 1rem;
+        font-weight: lighter;
+        color: white;
+        display: flex;
+        height: 50px;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        
+    }
+ 
+}
+
+.nav-bar{
+    .container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 14px;
+        .company-logo{
+            img{
+                width: 250px;
+            }
+        }
+        .nav-links{
+            ul{
+                display: flex;
+                gap: 24px;
+                list-style: none;
+              
+                .hover-link{
+                    text-decoration: none;
+                    color: var(--primary-text-color);
+                }
+                .hover-link:hover{
+                    color: var(--accent-color);
+                    transition: 0.2s ease-in-out;
+                   
+                }
+            }
+        }
+    }
+}
