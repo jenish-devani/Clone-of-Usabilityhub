@@ -84,4 +84,25 @@ body {
 .nav-bar .container .nav-links ul .hover-link:hover {
   color: var(--accent-color);
   transition: 0.2s ease-in-out;
+}
+
+.hero {
+  margin-top: 75px;
+}
+.hero .container {
+  display: flex;
+  align-items: center;
+  gap: 75px;
+}
+.hero .left-side a {
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 20px;
+}
+.hero .left-side p {
+  font-size: 1.25rem;
+  margin-top: 20px;
+}
+.hero .right-side img {
+  width: 550px;
 }/*# sourceMappingURL=main.css.map */

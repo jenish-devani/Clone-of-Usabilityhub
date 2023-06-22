@@ -100,3 +100,32 @@ body{
         }
     }
 }
+
+.hero{
+    margin-top: 75px;
+    .container{
+        display: flex;
+        align-items: center;
+        gap: 75px;
+    }
+    .left-side{
+        
+        a{
+            text-decoration: none;
+            display: inline-block;
+            margin-top: 20px;
+        }
+        p{
+            font-size: 1.25rem;
+            margin-top: 20px;
+        }
+    }
+    .right-side{
+        img{
+            width: 550px;
+        }
+
+    }
+
+   
+}
