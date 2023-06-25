@@ -34,6 +34,7 @@ body {
 }
 .primary-btn:hover {
   background-color: var(--accent-color-dark);
+  transition: 0.2s ease-in-out;
 }
 
 .secondary-btn {
@@ -175,7 +176,7 @@ body {
 }
 
 .big-feature-section-1 {
-  margin-top: 125px;
+  margin-top: 75px;
 }
 .big-feature-section-1 .container {
   display: flex;
@@ -229,5 +230,121 @@ body {
   font-size: 0.9rem;
 }
 .big-feature-section-1 img {
+  width: 100%;
+}
+
+.big-feature-section-2 {
+  margin-top: 75px;
+}
+.big-feature-section-2 .container {
+  display: flex;
+  gap: 75px;
+}
+.big-feature-section-2 .container .left-col .feature-img {
+  width: 550px;
+}
+.big-feature-section-2 .container .right-col .top h2 {
+  margin-top: 8px;
+}
+.big-feature-section-2 .container .right-col .top p {
+  margin-top: 16px;
+  font-size: 1.2rem;
+  color: var(--secondary-text-color);
+}
+.big-feature-section-2 .container .right-col .bottom {
+  margin-top: 45px;
+}
+.big-feature-section-2 .container .right-col .bottom .logo {
+  width: 100px;
+}
+.big-feature-section-2 .container .right-col .bottom .logo .qt {
+  position: relative;
+  margin-top: -30px;
+  margin-bottom: -45px;
+  margin-left: -45px;
+  width: 75px;
+  z-index: -999;
+}
+.big-feature-section-2 .container .right-col .bottom h4 {
+  padding-right: 125px;
+  line-height: 1.75rem;
+  color: var(--primary-text-color);
+  font-weight: 550;
+}
+.big-feature-section-2 .container .right-col .bottom .person {
+  display: flex;
+  margin-top: 25px;
+}
+.big-feature-section-2 .container .right-col .bottom .person .person-img {
+  width: 50px;
+}
+.big-feature-section-2 .container .right-col .bottom .person .person-detail {
+  margin-left: 16px;
+}
+.big-feature-section-2 .container .right-col .bottom .person .person-detail h4 {
+  font-size: 1.1rem;
+}
+.big-feature-section-2 .container .right-col .bottom .person .person-detail p {
+  font-size: 0.9rem;
+}
+.big-feature-section-2 img {
+  width: 100%;
+}
+
+.big-feature-section-3 {
+  margin-top: 75px;
+}
+.big-feature-section-3 .container {
+  display: flex;
+  gap: 75px;
+}
+.big-feature-section-3 .container .left-col .feature-img {
+  width: 550px;
+}
+.big-feature-section-3 .container .right-col .top h2 {
+  margin-top: 8px;
+}
+.big-feature-section-3 .container .right-col .top p {
+  margin-top: 16px;
+  font-size: 1.2rem;
+  color: var(--secondary-text-color);
+}
+.big-feature-section-3 .container .right-col .bottom {
+  margin-top: 45px;
+}
+.big-feature-section-3 .container .right-col .bottom .logo {
+  width: 100px;
+}
+.big-feature-section-3 .container .right-col .bottom .logo .qt {
+  position: relative;
+  margin-top: -30px;
+  margin-bottom: -45px;
+  margin-left: -45px;
+  width: 75px;
+  z-index: -999;
+}
+.big-feature-section-3 .container .right-col .bottom h4 {
+  padding-right: 125px;
+  line-height: 1.75rem;
+  color: var(--primary-text-color);
+  font-weight: 550;
+}
+.big-feature-section-3 .container .right-col .bottom .person {
+  display: flex;
+  margin-top: 25px;
+}
+.big-feature-section-3 .container .right-col .bottom .person .person-img {
+  width: 50px;
+}
+.big-feature-section-3 .container .right-col .bottom .person .person-detail {
+  margin-left: 16px;
+}
+.big-feature-section-3 .container .right-col .bottom .person .person-detail h4 {
+  font-size: 1.1rem;
+}
+.big-feature-section-3 .container .right-col .bottom .person .person-detail p {
+  font-size: 0.9rem;
+}
+.big-feature-section-3 img {
   width: 100%;
 }/*# sourceMappingURL=main.css.map */
