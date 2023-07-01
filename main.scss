@@ -36,7 +36,7 @@ body{
     box-shadow: 0px 0px 2px var(--primary-text-color);
     &:hover{
         background-color: var(--accent-color-dark);
-        transition: 0.2s ease-in-out;
+        transition: 0.3s ease-in-out;
     }
 
 }
@@ -44,12 +44,26 @@ body{
     border: 1px solid var(--secondary-text-color);
     padding: 12px 24px;
     border-radius: 6px;
-    font-weight: 600;
+    font-weight: 500;
     color: var(--primary-text-color) !important;
-    box-shadow: 5px px 2px var(--secondary-text-color);
+    box-shadow: 0px 0px 2px var(--secondary-text-color);
     &:hover{
         border-color: var(--accent-color);
         color: var(--accent-color) !important;
+        transition: 0.3s ease-in-out;
+    }
+}
+.secondary-btn-2{
+    border: 1px solid var(--secondary-text-color);
+    padding: 12px 24px;
+    border-radius: 6px;
+    font-weight: 500;
+    color:  #b9cde4 !important;
+    box-shadow: 0px 0px 2px var(--secondary-text-color);
+    &:hover{
+        border-color: var(--accent-color);
+        color: var(--accent-color) !important;
+        transition: 0.3s ease-in-out;
     }
 }
 
@@ -395,6 +409,7 @@ body{
 
 .example-section{
     margin-top: 25px;
+    margin-bottom: 75px;
     .example-header{
         text-align: center;
         a{
@@ -434,6 +449,10 @@ body{
             background: black;
             background: linear-gradient(rgb(0,0,0,0.1),rgb(0,0,0,0.8)),url(/images/asset\ 36.jpeg);
             background-size: cover;
+            &:hover{
+                box-shadow: 0px 0px 10px #888;
+                transition: 0.3s ease-in-out;
+            }
             h3{
                 color: white;
                 position: absolute;
@@ -443,5 +462,114 @@ body{
                 left: 10px;  
             }
         }
+    }
+}
+
+.cta-section-main{
+    margin-top: 50px;
+    padding-top: 75px;
+    padding-bottom: 100px;
+    background: var(--primary-text-color);
+    .container{
+        color: white;
+        display: flex;
+        padding: 0px;
+        justify-content: space-between;
+    }
+    .left-col{
+        width: 50%;
+        h2{
+            font-size: 2.4rem;
+        }
+        p{
+            color: #b9cde4;
+            margin-top: 16px;
+            font-size: 1.15rem;
+        }
+        h3{
+            margin-top: 26px;
+            font-size: 1.2rem;
+            font-weight: 500;
+        }
+        .sub-section{
+            display: flex;
+            justify-content: space-between;
+            .sub-left-col{
+                p{
+                    color: #b9cde4;
+                    font-size: 1rem;
+                }
+
+            }
+            .sub-right-col{
+                p{
+                    color: #b9cde4;
+                    font-size: 1rem;
+                }
+
+            }
+        }
+        .cta-btn{
+            margin-top: 45px;
+            a{
+                font-size: .9rem;
+                font-weight: 500;
+                display: inline-block;
+                text-decoration: none;
+            }
+            p{
+                display: inline-block;
+                margin-left: 8px;
+                margin-right: 8px;
+            }
+           
+        }
+    }
+    .right-col{
+        position: relative;
+        width: 50%;
+        text-align: center;
+        align-content: center;
+        .earth-img{
+            img{
+                position: absolute;
+                width: 110%;
+                left:-5%;
+                top: -10%;
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-position: center;
+            }
+        }
+        .img-card{
+            position:absolute;
+            left: 25%;
+            top: 25%;
+            .price-info{
+                width: 100%;
+                position: absolute;
+                color: black;
+                display: inline-block;
+                left: 3%;
+                top:30%;
+                p{
+                    font-size: 1.2rem;
+                    font-weight: 600;
+                    color: var(--primary-text-color);
+                    span{
+                        font-size: 2rem;
+                        color: var(--accent-color);
+                    }
+                }
+                #usd{
+                    font-size: 2rem;
+                    display: inline;
+                    color: var(--secondary-text-color);
+                }
+            }
+             
+        }
+      
+       
     }
 }
