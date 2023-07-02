@@ -85,10 +85,10 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 14px;
+  margin-top: 35px;
 }
 .nav-bar .container .company-logo img {
-  width: 250px;
+  width: 175px;
 }
 .nav-bar .container .nav-links ul {
   display: flex;
@@ -112,10 +112,13 @@ body {
   align-items: center;
   gap: 75px;
 }
+.hero .left-side h1 {
+  font-size: 2.5rem;
+}
 .hero .left-side a {
   text-decoration: none;
   display: inline-block;
-  margin-top: 20px;
+  margin-top: 45px;
 }
 .hero .left-side p {
   font-size: 1.25rem;
@@ -517,4 +520,83 @@ body {
   font-size: 2rem;
   display: inline;
   color: var(--secondary-text-color);
+}
+
+.cta-section-secondary {
+  margin-top: 75px;
+  margin-bottom: 75px;
+}
+.cta-section-secondary .container {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.cta-section-secondary .container p {
+  margin-top: 50px;
+}
+.cta-section-secondary .container a {
+  margin-top: 50px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+footer {
+  background-color: #ebf2fa;
+  padding-top: 55px;
+  padding-bottom: 55px;
+}
+footer .container {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+footer .container .weblogo {
+  width: 25%;
+}
+footer .container .weblogo img {
+  width: 55%;
+  height: auto;
+}
+footer .container .list {
+  margin-top: 30px;
+  color: #577592;
+}
+footer .container .list p {
+  line-height: 30px;
+}
+footer .container .products {
+  width: 25%;
+}
+footer .container .methods {
+  width: 25%;
+}
+footer .container .resources {
+  width: 25%;
+}
+
+.footer-bar {
+  background-color: #b9cde4;
+  height: 65px;
+}
+.footer-bar .container {
+  display: flex;
+  justify-content: space-evenly;
+  align-content: center;
+  height: 65px;
+}
+.footer-bar .container .left-col {
+  display: flex;
+  align-items: center;
+  gap: 36px;
+}
+.footer-bar .container .right-col {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+.footer-bar .container .right-col img {
+  width: 16px;
+  height: auto;
 }/*# sourceMappingURL=main.css.map */
